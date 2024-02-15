@@ -1,0 +1,6 @@
+nouns = ["cat", "dog", "book", "tree", "house"]
+verbs = ["runs", "jumps", "reads", "climbs", "builds"]
+adjectives = ["happy", "fast", "tall", "colorful", "old"]
+
+sentence = f"The {random.choice(adjectives)} {random.choice(nouns)} {random.choice(verbs)}."
+print("Random Sentence:", sentence)
